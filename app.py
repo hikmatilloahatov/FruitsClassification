@@ -5,6 +5,12 @@ from fastai.vision.all import *
 import plotly.express as px
 #---------------------------------------------------
 
+st.set_page_config(
+    page_title="UnlockAI", 
+    page_icon='unlock.webp', 
+    layout="centered"
+)
+
 hd_st_style = """
         <style>
          #MainMenu {visibility: hidden;}
